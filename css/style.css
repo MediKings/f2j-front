@@ -112,6 +112,7 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-bottom: 1px solid #ddd;
 }
 
 .sub_page .hero_area {
