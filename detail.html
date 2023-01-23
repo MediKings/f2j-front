@@ -135,12 +135,31 @@
                   <div class="col-md-7 detail-box">
                      <h3>Robe noire</h3>
                      <h4>Prix: 80$</h4>
+                     <button id="open-command-form" class="btn btn-sm btn-primary my-2">Commander</button>
+                     <h5>Descriprtion</h5>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi veritatis esse expedita cupiditate quidem quam id est! 
+                        Molestias exercitationem voluptatum suscipit minus dolores assumenda sunt omnis accusamus at aspernatur?</p>
                   </div>
                </div>
             </div>
          </div>
       </section>
       <!-- end product section -->
+
+      <div id="command-form" class="d-none">
+         <form action="#" method="POST" class="shadow">
+            <fieldset>
+               <p class="m-0 text-right" id="close-command-form"><i class="fa fa-times fa-2x"></i></p>
+               <h4 class="text-center pb-2">Passez votre commande</h4>
+               <input type="text" placeholder="votre nom complet" name="name" required />
+               <input type="email" placeholder="votre email" name="email" required />
+               <input type="number" placeholder="Quantité" name="number" required />
+               <input type="text" placeholder="Votre adresse" name="adresse" required />
+               <h5>Montant total: ___$</h5>
+               <input type="submit" value="Commander" />
+            </fieldset>
+         </form>
+      </div>
 
       <!-- footer start -->
       <footer class="footer_section">
